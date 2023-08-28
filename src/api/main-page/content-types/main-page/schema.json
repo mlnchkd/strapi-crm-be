@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "mainPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Main": {
+      "displayName": "Main Page",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.main-page"
+    }
+  }
+}
